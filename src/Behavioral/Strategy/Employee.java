@@ -1,6 +1,6 @@
 package Behavioral.Strategy;
 
-public class Employee {
+public abstract class Employee {
 
 	private int id;
 	private String name;
@@ -20,5 +20,7 @@ public class Employee {
 		// TODO Auto-generated method stub
 		return "Employee [id=" +id+", name= "+name+", department= "+department+ ", working= "+working+ "]";
 	}
+	
+	abstract void performDuties();
 	
 }
